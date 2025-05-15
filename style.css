@@ -6,7 +6,8 @@ h1{
     text-size-adjust: xxx-large;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bolder;
-}
+    }
+
 h4{
     color:crimson;
     text-align: center;
@@ -20,7 +21,7 @@ h4{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-       height:100vh; /* aspect-ratio: 16/9; */
+        height:100vh; /* aspect-ratio: 16/9; */
     }
 
 html{background-color:black;}
@@ -30,11 +31,12 @@ html{background-color:black;}
     display:flex;
     flex-direction: column;
     width: 50vw;
-     }
+   }
 
   p{font-family:sans-serif;
     font-weight: bolder;
     color:black;
+    margin-left:10px;
 }
 
    input::placeholder{
@@ -43,9 +45,13 @@ html{background-color:black;}
     font-weight:bolder;
     background-color: bisque;
     text-align:center;
+    
     }
 
-input{width:120px;}
+input{
+width:120px;
+margin-left:15px;
+}
     
    button {
             background-color:crimson;
