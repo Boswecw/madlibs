@@ -42,8 +42,8 @@ html{background-color:black;}
 }
 
    input::placeholder{
-    width:120px;
-    color: red;
+    width:flex;
+    color:crimson;
     font-weight:bolder;
     background-color: bisque;
     text-align:center;
@@ -51,7 +51,7 @@ html{background-color:black;}
     }
 
 input{
-width:120px;
+width:flex;
 margin-left:15px;
 }
     
