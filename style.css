@@ -7,7 +7,9 @@ h1{
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bolder;
     }
-
+span{
+    color:crimson;
+}
 h4{
     color:crimson;
     text-align: center;
